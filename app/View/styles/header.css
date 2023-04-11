@@ -1,0 +1,28 @@
+header {
+  background-color: var(--cor-primaria);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin: 0 2em;
+}
+h2 {
+  color: var(--cor-secundaria);
+  display: inline;
+}
+.voltar {
+  color: var(--cor-secundaria);
+  padding-right: 3em;
+  font-weight: 600;
+  opacity: 80%;
+}
+.voltar:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    margin: 0;
+  }
+}

@@ -1,0 +1,30 @@
+footer {
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5em 2em;
+}
+p {
+  margin: 0;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+}
+.logo-rodape {
+  height: 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+}
