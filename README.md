@@ -7,7 +7,7 @@ Crud em MVC e PHP OO
 ### Front-end
 HTML, CSS, JS, Bootstrap;
 ### Back-end
-PHP np padrão MVC
+PHP no padrão MVC
 ### Banco de dados
 MySQL
 
